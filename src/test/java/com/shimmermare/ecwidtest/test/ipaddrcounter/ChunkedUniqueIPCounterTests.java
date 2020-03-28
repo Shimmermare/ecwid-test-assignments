@@ -1,8 +1,9 @@
-package com.shimmermare.ecwidtest.ipaddrcounter;
+package com.shimmermare.ecwidtest.test.ipaddrcounter;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import com.shimmermare.ecwidtest.ipaddrcounter.ChunkedUniqueIPCounter;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
